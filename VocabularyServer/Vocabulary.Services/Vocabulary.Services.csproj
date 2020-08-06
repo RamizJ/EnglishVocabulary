@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vocabulary.DataAccess\Vocabulary.DataAccess.csproj" />
+    <ProjectReference Include="..\Vocabulary.Views\Vocabilary.Views.csproj" />
+  </ItemGroup>
+
+</Project>

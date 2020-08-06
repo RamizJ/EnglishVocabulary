@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Vocabulary.Backend</name>
+    </assembly>
+    <members>
+        <member name="T:Vocabulary.Backend.ConfigKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vocabulary.Backend.ConfigKeys.IS_API_TEST_MODE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Vocabulary.Backend.ConfigKeys.DB_CONNECTION_STRING">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Vocabulary.Backend.Controllers.WordSetsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordSetsController.Get(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordSetsController.GetAll">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordSetsController.Create(Vocabilary.Views.WordSetView)">
+            <summary>
+            
+            </summary>
+            <param name="wordSetView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordSetsController.Update(Vocabilary.Views.WordSetView)">
+            <summary>
+            
+            </summary>
+            <param name="wordSetView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordSetsController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="T:Vocabulary.Backend.Controllers.WordsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordsController.GetAll(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="wordSetId"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordsController.Create(Vocabilary.Views.WordView)">
+            <summary>
+            
+            </summary>
+            <param name="wordView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordsController.Update(Vocabilary.Views.WordView)">
+            <summary>
+            
+            </summary>
+            <param name="wordView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Vocabulary.Backend.Controllers.WordsController.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Vocabulary.Backend.Exceptions.HttpResponseException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Vocabulary.Backend.Exceptions.HttpResponseException.StatusCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Vocabulary.Backend.Exceptions.HttpResponseException.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Exceptions.HttpResponseException.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Exceptions.HttpResponseException.#ctor(System.Net.HttpStatusCode,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:Vocabulary.Backend.HttpResponseExceptionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Vocabulary.Backend.HttpResponseExceptionFilter.Order">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.HttpResponseExceptionFilter.OnActionExecuted(Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Vocabulary.Backend.HttpResponseExceptionFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Vocabulary.Backend.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Vocabulary.Backend.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Vocabulary.Backend.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Vocabulary.Backend.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Vocabulary.Backend.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Vocabulary.Backend.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
